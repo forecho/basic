@@ -16,6 +16,7 @@ return array(
     'basePath' => $frontend,
     'name' => '后台管理系统',
     'language' => 'zh_cn',
+    'timeZone' => 'Asia/Shanghai',
     'theme' => 'backend',
     'controllerPath' => $backend . '/controllers',
     'viewPath' => $backend . '/views',
