@@ -19,21 +19,11 @@ Yii::setPathOfAlias('xupload', $extDir . DIRECTORY_SEPARATOR . 'xupload'); // Ch
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-<<<<<<< HEAD
-Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
-
-=======
->>>>>>> basic/master
 return array(
     'basePath' => $frontend,
     'name' => 'Yincart演示购物网',
     'language' => 'en',
-<<<<<<< HEAD
-    'timeZone' => 'Asia/Shanghai',
-    'theme' => 'leather',
-=======
     'theme' => 'pidiao',
->>>>>>> basic/master
     // preloading 'log' component
     'preload' => array('log', 'translate'),
     // autoloading model and component classes

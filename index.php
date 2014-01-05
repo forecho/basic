@@ -1,11 +1,7 @@
 <?php
 error_reporting(E_ALL & ~(E_STRICT | E_NOTICE));
 // change the following paths if necessary
-<<<<<<< HEAD
 $yii=dirname(__FILE__).'/../yii14/framework/yii.php';
-=======
-$yii=dirname(__FILE__).'/../yii/framework/yii.php';
->>>>>>> basic/master
 $config=dirname(__FILE__).'/protected/config/main.php';
 
 // remove the following lines when in production mode
